@@ -2944,6 +2944,8 @@ ul.staggered-list li {
 }
 
 .page-footer {
+	margin-top: auto;
+	bottom: 0;
   padding-top: 20px;
   color: #fff;
   background-color: #ee6e73;
