@@ -26,27 +26,11 @@
   width:100%;
   height:20%;
   position:absolute;
-   background-size: cover;
-	background-attachment: fixed;
+  background-size: cover;
+  background-attachment: fixed;
   z-index: -3;
 }
 
-/* login register */
-
-
-#login-page {
-   width: 400px;
-	overflow: hidden;
-	transform: translateX(7%);
-}
-
-
-#register {
-
-	overflow: hidden;
-
-}
-/* register */
 
 
 
@@ -54,12 +38,7 @@
    width: 100%;
 	overflow: hidden;
 }
-.gender-male,.gender-female {
-  display: inline-block;
-}
-.gender-female {
-  margin-left: 35px;
-}
+
 radio:required {
   border-color: red;
 }
