@@ -4,13 +4,13 @@
 </div>-->
 
 <main>
-
+<br>
 <div class="row">
     <div class="col s12">
-<a class="waves-effect waves-light btn" href="{{ url('/home') }}"><i class="material-icons left">info</i>Profile</a>
-<a class="waves-effect waves-light btn" href="{{ url('/about') }}"><i class="material-icons left">info</i>About</a>
-<a class="waves-effect waves-light btn" href="{{ url('/archive') }}"><i class="material-icons left">archive</i>Archive</a>
-<a class="waves-effect waves-light btn" target="_blank" href="https://myanimelist.net/"><i class="material-icons left">web</i>blog</a>
+<a class="btn" href="/home"><i class="material-icons left">info</i>Profile</a>
+<a class="btn" href="{{ url('/about') }}"><i class="material-icons left">info</i>About</a>
+<a class="btn" href="{{ url('/archive') }}"><i class="material-icons left">archive</i>Archive</a>
+<a class="btn" target="_blank" href="https://myanimelist.net/"><i class="material-icons left">web</i>blog</a>
 	</div>
 </div>
 
@@ -25,7 +25,7 @@
       <div class="collapsible-body"><span><form method="post">
 
 	<div class="row">
-	<div class="col s3">
+	<div class="col s4">
 		<label><div style="min-width:160px;">Gender Select</div></label>
 	  <select class="browser-default" name="select" required style="min-width:160px;">
 		<option value="" disabled selected>Choose your Gender</option>
@@ -119,14 +119,15 @@
 			 <img class="activator" src="https://cdn.wallpapersafari.com/8/60/1HYcW5.jpg">
     		 </div>
     <div class="card-content">
-      <span class="card-title activator grey-text text-darken-4">Sport and Health<i class="material-icons right">more_vert</i></span>
-      <p><a href="{{ url('/article') }}">More info</a></p>
+      <span class="card-title activator grey-text text-darken-4">The Importance of Sports to Health<i class="material-icons right">more_vert</i></span>
+      <p><a href="{{ url('/article') }}">Read Article</a></p>
     </div>
 	<div class="card-reveal">
        <span class="card-title grey-text text-darken-4">Benefits of Exercise and Sport<i class="material-icons right">close</i></span>
        <p>Playing a sport helps you build your character. It teaches you to bide by the rules and follow them. Sports also teach you how to succeed with class and to lose with dignity. Sports teach kids work ethic, teamwork, social skills, cooperation, authority, respect, responsibility, passion, skill, etc.</p>
        <span class="card-title grey-text text-darken-4">Healthy Foods and Why does it Matter</span>
        <p>Organic food is a huge trend: it promises a healthier and better life. But can Organic food really live up to the expectations or is it just baloney?</p>
+	   <p><a href="{{ url('/article') }}">Continue reading</a></p>
 
 	   <div class="video-container">
        <iframe width="560" height="315" src="https://www.youtube.com/embed/8PmM6SUn7Es" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -139,6 +140,6 @@
 		<!--2th half-->
 
  </div>
-
 </main>
 
+<br>
