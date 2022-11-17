@@ -3,7 +3,7 @@
 
 
 <div class="fixed-action-btn">
-  <a class="btn-floating btn-large red">
+  <a class="btn-floating btn-large blue lighten-1">
     <i class="large material-icons">mode_edit</i>
   </a>
   <ul>
@@ -14,38 +14,38 @@
   </ul>
 </div>
 
-<footer class="page-footer blue">
+<footer class="page-footer">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
-          <h5 class="white-text">Ayrp Project</h5>
-          <p class="grey-text text-lighten-4">in development!</p>
+          <h5 class="black-text">Ayrp Project</h5>
+          <p class="black-text text-lighten-4">in development!</p>
 
 
         </div>
         <div class="col l3 s12">
-          <h5 class="white-text">Settings</h5>
+          <h5 class="black-text">Settings</h5>
           <ul>
-            <li><a class="white-text" href="#!">Profile</a></li>
-            <li><a class="white-text" href="#!">Security</a></li>
-            <li><a class="white-text" href="#!">Account</a></li>
-            <li><a class="white-text" href="#!">State</a></li>
+            <li><a class="black-text" href="#!">Profile</a></li>
+            <li><a class="black-text" href="#!">Security</a></li>
+            <li><a class="black-text" href="#!">Account</a></li>
+            <li><a class="black-text" href="#!">State</a></li>
           </ul>
         </div>
         <div class="col l3 s12">
-          <h5 class="white-text">Connect</h5>
+          <h5 class="black-text">Connect</h5>
           <ul>
-            <li><a class="white-text" href="#!">Twitter</a></li>
-            <li><a class="white-text" href="#!">Mail</a></li>
-            <li><a class="white-text" href="#!">Github</a></li>
-            <li><a class="white-text" href="#!">Linkedin</a></li>
+            <li><a class="black-text" href="#!">Twitter</a></li>
+            <li><a class="black-text" href="#!">Mail</a></li>
+            <li><a class="black-text" href="#!">Github</a></li>
+            <li><a class="black-text" href="#!">Linkedin</a></li>
           </ul>
         </div>
       </div>
     </div>
     <div class="footer-copyright">
-      <div class="container">
-      Made by <a class="orange-text text-lighten-3" href="#">Ayrp</a>
+      <div class="black-text container">
+      Made by <a class="blue-text" href="#">Ayrp</a>
       </div>
     </div>
   </footer>

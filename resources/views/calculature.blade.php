@@ -5,21 +5,19 @@
 
 <main>
 <br>
-<div class="row">
-    <div class="col s12">
-<a class="btn" href="/home"><i class="material-icons left">info</i>Profile</a>
-<a class="btn" href="{{ url('/about') }}"><i class="material-icons left">info</i>About</a>
-<a class="btn" href="{{ url('/archive') }}"><i class="material-icons left">archive</i>Archive</a>
-<a class="btn" target="_blank" href="https://myanimelist.net/"><i class="material-icons left">web</i>blog</a>
-	</div>
-</div>
+
+
 
 
  <div class="row">
-
+		<div class="col m12">
 		<!--1th half-->
-	<div class="col s12 m6">
-  <ul class="collapsible" style="overflow: hidden; background-color: white;">
+	
+	<div class="col s12 m3">
+		<ul class="collapsible" style="overflow: hidden; background-color: white;">
+  
+	<!--section1-->
+  
     <li>
       <div class="collapsible-header"><i class="material-icons">person</i>Human</div>
       <div class="collapsible-body"><span><form method="post">
@@ -35,19 +33,23 @@
 	 </div>
 	 </div>
 
-		<div class="row">
+	<div class="row">
         <div class="col s12">
           Weight:
           <div class="input-field inline">
             <input id="weight" type="number" required name="number1" class="validate">
             <label for="weight">kg</label>
-          </div><div class="row">
+          </div>
+	</div></div>
+	<div class="row">
         <div class="col s12">
           Height:
           <div class="input-field inline">
             <input id="height" type="number" required name="number2" class="validate">
             <label for="height">cm</label>
-          </div><div class="row">
+          </div>
+	</div></div>
+	<div class="row">
         <div class="col s12">
 		  Age:
           <div class="input-field inline">
@@ -59,8 +61,12 @@
 			<i class="material-icons right">send</i>
 			</button>
 		</div>
-</form></span></div>
+	</div></div>
+	</form></span></div>
     </li>
+	
+	<!--section2-->
+	
     <li>
       <div class="collapsible-header"><i class="material-icons">pets</i>Pets</div>
       <div class="collapsible-body"><span><form method="post">
@@ -75,14 +81,15 @@
 	  </select>
 	 </div>
 	 </div>
-
 		<div class="row">
         <div class="col s12">
           Weight:
           <div class="input-field inline">
             <input id="weight1" type="number" required name="number1" class="validate">
             <label for="weight1">kg</label>
-          </div><div class="row">
+		  </div>
+    </div></div>
+	<div class="row">
         <div class="col s12">
           Height:
           <div class="input-field inline">
@@ -94,8 +101,12 @@
 			<i class="material-icons right">send</i>
 			</button>
 		</div>
-</form></span></div>
+	</div></div>
+		</form></span></div>
     </li>
+	
+	<!--section3-->
+	
     <li  class="active">
       <div class="collapsible-header"><i class="material-icons">whatshot</i>Results</div>
       <div class="collapsible-body">
@@ -104,13 +115,18 @@
 		  </span>
 	  </div>
     </li>
-   </ul>
-
-  </div>
+	
+	
+		</ul>
+	</div>
+	
 		<!--1th half-->
+		
+	<div class="row">
+	
 
 		<!--2th half-->
-	<div class="col s12 m6">
+	<div class="">
 	  <div class="z-depth-3">
 
 
@@ -135,11 +151,52 @@
 	</div>
    </div>
 
+
+	  </div>
+	</div>
+		<!--2th half-->
+		
+ <!-- article-->
+ 
+ 		<!--2th half-->
+	<div class="">
+	  <div class="z-depth-3">
+
+
+	<div class="card" style="overflow: hidden;">
+			 <div class="card-image waves-effect waves-block waves-light">
+			 <img class="activator" src="https://i.ytimg.com/vi/UZHL-m2IOPc/maxresdefault.jpg">
+    		 </div>
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">How long can a Star last?<i class="material-icons right">more_vert</i></span>
+      <p><a href="{{ url('/article') }}">Read Article</a></p>
+    </div>
+	<div class="card-reveal">
+       <span class="card-title grey-text text-darken-4">How does a black hole work<i class="material-icons right">close</i></span>
+       <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
+       <span class="card-title grey-text text-darken-4">theory about the space</span>
+       <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat?</p>
+	   <p><a href="{{ url('/article') }}">Continue reading</a></p>
+
+	   <div class="video-container">
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/QqsLTNkzvaY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       </div>
+	</div>
+   </div>
 	  </div>
 	</div>
 		<!--2th half-->
 
+	
+ 
+
+	</div>
+
  </div>
+ </div>
+ 
+ 
+
 </main>
 
 <br>

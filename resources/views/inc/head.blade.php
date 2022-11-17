@@ -33,7 +33,7 @@
 
 
 <!-- Navigation -->
-
+<div class="navbar-fixed">
 <nav class="nav-extended">
 
     <!-- Side Nav -->
@@ -55,29 +55,37 @@
 			<li><a class="waves-effect" href="{{ route('register') }}">{{ __('Register') }}</a></li>
 			<li><a class="waves-effect" href="{{ route('login') }}">{{ __('Login') }}</a></li>
         </ul>
-        <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons black-text">menu</i></a>
     </div>
     <!-- Side Nav -->
 
     <div class="nav-wrapper">
         <div class="z-depth-5">
-            <div class="left-align"><a href="{{ url('/') }}" class="brand-logo left hide-on-med-and-down" style="padding-left: 20px;">Ayrp Project</a></div>
+            <div class="left-align"><a href="{{ url('/') }}" class="brand-logo left hide-on-med-and-down black-text" style="padding-left: 50px;">Ayrp</a></div>
+			
+		<ul class="container hide-on-med-and-down">
+        <li><a class="black-text" href="{{ url('/about') }}">About</a></li>
+        <li><a class="black-text" href="{{ url('/archive') }}">Archive</a></li>
+        <li><a class="black-text" target="_blank" href="https://ayrito.github.io/ayrp-cv/">Blog</a></li>
+		</ul>
+			
             <ul class="right hide-on-med-and-down">
                 
                 <!-- Right Side Of Navbar -->
                     
 					<!-- Authentication Links -->
+					<li class="divider">
                         @guest
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
+                                <a class="black-text nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
                             </li>
                             @if (Route::has('register'))
                                 <li class="nav-item">
-                                    <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
+                                    <a class="black-text nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
                                 </li>
                             @endif
                         @else
-						<li><a href="#" class='dropdown-trigger btn' href='#' role="button" data-target='dropdown1'>{{ Auth::user()->name }} </a></li>
+						<li><a href="#" class='dropdown-trigger btn blue' href='#' role="button" data-target='dropdown1'>{{ Auth::user()->name }} </a></li>
                             
 							<li class="nav-item dropdown">
                                 
@@ -87,10 +95,9 @@
                             
                             </li>
                         @endguest
-                        
+                    </li>
                 
-                <li><a href="#" class='dropdown-trigger btn btn-floating' href='#' data-target='dropdown2'><i class="material-icons">more_vert</i></a></li>
-				<li></li>
+                <li><a href="#" class='dropdown-trigger btn btn-floating white' href='#' data-target='dropdown2'><i class="material-icons black-text">more_vert</i></a></li>
             </ul>
 
             <!-- search -->
@@ -112,8 +119,11 @@
         </div>
     </div>
 </nav>
-
+</div>
 <ul id='dropdown1' class='dropdown-content'>
+	<li><a href="/home">
+        {{ __('Account') }}
+     </a></li>
     <li><a class="dropdown-item" href="{{ route('logout') }}"
            onclick="event.preventDefault();
            document.getElementById('logout-form').submit();">

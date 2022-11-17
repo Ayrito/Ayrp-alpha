@@ -41,7 +41,7 @@
             <br>
             <br>
 
-			<button type="submit" class="btn btn-large">
+			<button type="submit" class="btn btn-large blue">
                 {{ __('Login') }}
             </button>
 
