@@ -2,8 +2,9 @@
 
 @section('content')
 
-
-<div class="content" style="padding-right: 30%; padding-left: 30%;">
+<div class="container">
+<div class="container">
+<div class="content col s12 m3 container">
         <h5 class="center">{{ __('Login') }}</h5>
         <br>
 
@@ -62,6 +63,7 @@
         </form>
 		<br>
 		
-</div>
-        
+	</div>
+      </div>  
+	  </div>
 @endsection

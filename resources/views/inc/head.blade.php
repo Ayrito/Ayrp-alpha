@@ -30,14 +30,9 @@
 
 
 		<!--Main Navigation-->
+		
 
-
-<!-- Navigation -->
-<div class="navbar-fixed">
-<nav class="nav-extended">
-
-    <!-- Side Nav -->
-    <div>
+		<!--Mobile Navigation-->
         <ul id="slide-out" class="sidenav">
             <li><div class="user-view">
                     <div class="background">
@@ -52,9 +47,18 @@
             <li><a href="#!">Status</a></li>
             <li><div class="divider"></div></li>
             <li><a class="subheader">info</a></li>
-			<li><a class="waves-effect" href="{{ route('register') }}">{{ __('Register') }}</a></li>
-			<li><a class="waves-effect" href="{{ route('login') }}">{{ __('Login') }}</a></li>
+			<li><a href="{{ route('register') }}">{{ __('Register') }}</a></li>
+			<li><a href="{{ route('login') }}">{{ __('Login') }}</a></li>
         </ul>
+		<!--Mobile Navigation-->
+		
+		
+<!-- Navigation -->
+<div class="navbar-fixed">
+<nav class="nav-extended">
+
+    <!-- Side Nav -->
+    <div>
         <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons black-text">menu</i></a>
     </div>
     <!-- Side Nav -->
@@ -121,10 +125,10 @@
 </nav>
 </div>
 <ul id='dropdown1' class='dropdown-content'>
-	<li><a href="/home">
+	<li><a class="dropdown-item black-text" href="/home">
         {{ __('Account') }}
      </a></li>
-    <li><a class="dropdown-item" href="{{ route('logout') }}"
+    <li><a class="dropdown-item black-text" href="{{ route('logout') }}"
            onclick="event.preventDefault();
            document.getElementById('logout-form').submit();">
         {{ __('Logout') }}
@@ -134,12 +138,12 @@
 
 <!-- dot button -->
 <ul id='dropdown2' class='dropdown-content'>
-    <li><a href="#account" class="modal-trigger"><i class="material-icons"></i>acccount</a></li>
-    <li><a href="#settings" class="modal-trigger">Settings</a></li>
+    <li><a href="#account" class="modal-trigger black-text"><i class="material-icons"></i>acccount</a></li>
+    <li><a href="#settings" class="modal-trigger black-text">Settings</a></li>
     <li class="divider" tabindex="-1"></li>
-    <li><a href="#help" class="modal-trigger">Help</a></li>
-    <li><a href="#contact" class="modal-trigger"><i class="material-icons"></i>contact</a></li>
-    <li><a href="#feedback" class="modal-trigger"><i class="material-icons"></i>feedback</a></li>
+    <li><a href="#help" class="modal-trigger black-text">Help</a></li>
+    <li><a href="#contact" class="modal-trigger black-text"><i class="material-icons"></i>contact</a></li>
+    <li><a href="#feedback" class="modal-trigger black-text"><i class="material-icons"></i>feedback</a></li>
 </ul>
 <!-- dot button -->
 

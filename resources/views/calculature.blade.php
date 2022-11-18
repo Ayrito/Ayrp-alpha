@@ -10,7 +10,7 @@
 
 
  <div class="row">
-		<div class="col m12">
+		<div class="col s12">
 		<!--1th half-->
 	
 	<div class="col s12 m3">
@@ -121,17 +121,17 @@
 	</div>
 	
 		<!--1th half-->
-		
-	<div class="row">
 	
 
+
 		<!--2th half-->
-	<div class="">
+	<div class="col s12 m9">
+	<div class="bakabaka">
 	  <div class="z-depth-3">
 
 
 	<div class="card" style="overflow: hidden;">
-			 <div class="card-image waves-effect waves-block waves-light">
+			 <div class="card-image">
 			 <img class="activator" src="https://cdn.wallpapersafari.com/8/60/1HYcW5.jpg">
     		 </div>
     <div class="card-content">
@@ -153,18 +153,20 @@
 
 
 	  </div>
+	  </div>
 	</div>
 		<!--2th half-->
 		
  <!-- article-->
  
  		<!--2th half-->
-	<div class="">
+	<div class="col s12 m9 right">
+	<div class="bakabaka">
 	  <div class="z-depth-3">
 
 
 	<div class="card" style="overflow: hidden;">
-			 <div class="card-image waves-effect waves-block waves-light">
+			 <div class="card-image">
 			 <img class="activator" src="https://i.ytimg.com/vi/UZHL-m2IOPc/maxresdefault.jpg">
     		 </div>
     <div class="card-content">
@@ -184,19 +186,73 @@
 	</div>
    </div>
 	  </div>
+	  </div>
+	</div>
+		<!--2th half-->
+	<div class="col s12 m9 right">
+	<div class="bakabaka">
+	  <div class="z-depth-3">
+
+
+	<div class="card" style="overflow: hidden;">
+			 <div class="card-image">
+			 <img class="activator" src="https://i.ytimg.com/vi/UZHL-m2IOPc/maxresdefault.jpg">
+    		 </div>
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">How long can a Star last?<i class="material-icons right">more_vert</i></span>
+      <p><a href="{{ url('/article') }}">Read Article</a></p>
+    </div>
+	<div class="card-reveal">
+       <span class="card-title grey-text text-darken-4">How does a black hole work<i class="material-icons right">close</i></span>
+       <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
+       <span class="card-title grey-text text-darken-4">theory about the space</span>
+       <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat?</p>
+	   <p><a href="{{ url('/article') }}">Continue reading</a></p>
+
+	   <div class="video-container">
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/QqsLTNkzvaY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       </div>
+	</div>
+   </div>
+	  </div>
+	  </div>
+	</div>
+		<!--2th half-->
+	<div class="col s12 m9 right">
+	<div class="bakabaka">
+	  <div class="z-depth-3">
+
+
+	<div class="card" style="overflow: hidden;">
+			 <div class="card-image">
+			 <img class="activator" src="https://i.ytimg.com/vi/UZHL-m2IOPc/maxresdefault.jpg">
+    		 </div>
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">How long can a Star last?<i class="material-icons right">more_vert</i></span>
+      <p><a href="{{ url('/article') }}">Read Article</a></p>
+    </div>
+	<div class="card-reveal">
+       <span class="card-title grey-text text-darken-4">How does a black hole work<i class="material-icons right">close</i></span>
+       <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
+       <span class="card-title grey-text text-darken-4">theory about the space</span>
+       <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat?</p>
+	   <p><a href="{{ url('/article') }}">Continue reading</a></p>
+
+	   <div class="video-container">
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/QqsLTNkzvaY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       </div>
+	</div>
+   </div>
+	  </div>
+	  </div>
 	</div>
 		<!--2th half-->
 
-	
+</div>
  
-
-	</div>
-
  </div>
- </div>
- 
  
 
 </main>
 
-<br>
+<br><br><br>

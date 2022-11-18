@@ -3,7 +3,9 @@
 @section('content')
 
 
-<div class="content" style="padding-right: 30%; padding-left: 30%;">
+<div class="container">
+<div class="container">
+<div class="content col s12 m3 container">
         <h4>{{ __('Reset Password') }}</h4>
         <br>
 		
@@ -33,6 +35,8 @@
             </button>
         </form>
 </div>
+</div></div>
 
+<br>
                 
 @endsection

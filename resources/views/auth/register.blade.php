@@ -3,7 +3,9 @@
 @section('content')
 
 
-<div class="content" style="padding-right: 30%; padding-left: 30%;">
+<div class="container">
+<div class="container">
+<div class="content col s12 m3 container">
         <h5 class="center">{{ __('Register Form') }}</h5>
         <br>
 
@@ -73,9 +75,7 @@
 		<br><br><br>
 </div>
 
-
-
-<!--register-->
+</div></div>
 
 
 				
