@@ -1,6 +1,6 @@
 @extends('layouts.app')
+@include('inc.head')
 
-@section('content')
 <div class="container">
     <div class="row">
         <div class="col-3 p-5">
@@ -45,4 +45,5 @@
         @endforeach
     </div>
 </div>
-@endsection
+
+@include('inc.footer')
