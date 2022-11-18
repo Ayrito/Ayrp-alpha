@@ -31,7 +31,11 @@
   z-index: -3;
 }
 
-
+@media only screen and (min-width: 992px) {
+  .bakabaka {
+    padding-right: 20%;
+  }
+}
 
 
 .col.s6 > .btn {
